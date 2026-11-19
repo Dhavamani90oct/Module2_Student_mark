@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("Student marks of module -2")
+st.title("STUDENTS MODULE-2 RESULT")
 student_detail1 = {"Karthiga":[20,40,5,65],"Dhivya":[27,38,6,77],"Anu":[18,36,5,59],"Meena":[36,38,7,81],"Logitha":[30,45,8,83]}
 name = st.selectbox("Select student name" ,student_detail1.keys())
 theory = student_detail1[name][0]
